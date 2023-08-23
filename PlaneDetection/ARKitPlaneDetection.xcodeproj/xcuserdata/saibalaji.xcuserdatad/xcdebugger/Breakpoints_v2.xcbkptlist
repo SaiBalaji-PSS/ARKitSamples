@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9F4254B0-6C74-453F-9AE6-962E326D548F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B8E8B25-1A05-485B-9882-C299C2EBC905"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARKitPlaneDetection/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "updatePlane(planeAnchor:node:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68196E95-B957-4DC1-970B-CDC96BA238D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARKitPlaneDetection/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "updatePlane(planeAnchor:node:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "68196E95-B957-4DC1-970B-CDC96BA238D7 - 57ffb9243dc32d3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARKitPlaneDetection.ViewController.updatePlane(planeAnchor: __C.ARPlaneAnchor, node: __C.SCNNode) -&gt; ()"
+                  moduleName = "ARKitPlaneDetection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Desktop/ARKitPlaneDetection/ARKitPlaneDetection/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "68196E95-B957-4DC1-970B-CDC96BA238D7 - 57ffb9243dc32d3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARKitPlaneDetection.ViewController.updatePlane(planeAnchor: __C.ARPlaneAnchor, node: __C.SCNNode) -&gt; ()"
+                  moduleName = "ARKitPlaneDetection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Desktop/ARKitPlaneDetection/ARKitPlaneDetection/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "248">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11F1676E-51FE-47A7-AA24-684B858C825C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARKitPlaneDetection/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "updatePlane(planeAnchor:node:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "11F1676E-51FE-47A7-AA24-684B858C825C - 57ffb9243dc32edc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARKitPlaneDetection.ViewController.updatePlane(planeAnchor: __C.ARPlaneAnchor, node: __C.SCNNode) -&gt; ()"
+                  moduleName = "ARKitPlaneDetection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Desktop/ARKitPlaneDetection/ARKitPlaneDetection/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "11F1676E-51FE-47A7-AA24-684B858C825C - 57ffb9243dc32edc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARKitPlaneDetection.ViewController.updatePlane(planeAnchor: __C.ARPlaneAnchor, node: __C.SCNNode) -&gt; ()"
+                  moduleName = "ARKitPlaneDetection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Desktop/ARKitPlaneDetection/ARKitPlaneDetection/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "628">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
