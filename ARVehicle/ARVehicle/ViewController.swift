@@ -44,6 +44,7 @@ class ViewController: UIViewController{
         sceneView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTap)))
         sceneView.scene.physicsWorld.gravity = SCNVector3Make(0.0, -0.5, 0.0)
         self.configureGamePad()
+        carNode = carScene.rootNode.childNode(withName: "chassi", recursively: false)!
         
     }
     
@@ -133,7 +134,7 @@ class ViewController: UIViewController{
     }
     
     func placeCar(result: ARRaycastResult){
-        carNode = carScene.rootNode.childNode(withName: "chassi", recursively: false)!
+       
         
         let frontLeftWheelNode = self.carNode.childNode(withName: "frontLeftParent", recursively: false)!
         let frontRightWheelNode = self.carNode.childNode(withName: "frontRightParent", recursively: false)!
