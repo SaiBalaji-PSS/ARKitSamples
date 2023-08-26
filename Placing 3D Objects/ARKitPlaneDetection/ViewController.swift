@@ -12,10 +12,9 @@ import ARKit
 class ViewController: UIViewController{
 
     @IBOutlet var sceneView: ARSCNView!
-    var planeNode = SCNNode()
-    var teaPotNode = SCNNode()
-    
-    let scene = SCNScene()
+  
+
+    private let scene = SCNScene()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -90,15 +89,13 @@ class ViewController: UIViewController{
     }
     
     func addTeaPot(result: ARRaycastResult){
-        print(result.worldTransform.columns.3.x)
+        print(result.worldTransform)
         print(result.worldTransform.columns.3.y)
         print(result.worldTransform.columns.3.z)
         let teaPotScene = SCNScene(named: "art.scnassets/teapot copy.scn")!
-        self.teaPotNode = teaPotScene.rootNode.childNode(withName: "teapot", recursively: true)!
-        self.teaPotNode.position = SCNVector3(x: result.worldTransform.columns.3.x, y: result.worldTransform.columns.3.y, z: result.worldTransform.columns.3.z)
-        self.teaPotNode.scale = SCNVector3(x: 0.002, y: 0.002, z: 0.002)
-        
-    
+        let teaPotNode = teaPotScene.rootNode.childNode(withName: "teapot", recursively: true)!
+        teaPotNode.position = SCNVector3(x: result.worldTransform.columns.3.x, y: result.worldTransform.columns.3.y, z: result.worldTransform.columns.3.z)
+        teaPotNode.scale = SCNVector3(x: 0.002, y: 0.002, z: 0.002)
         scene.rootNode.addChildNode(teaPotNode)
     }
 
@@ -129,7 +126,7 @@ extension ViewController: ARSCNViewDelegate{
         let planeGeomentry = SCNPlane(width: CGFloat(planeAnchor.extent.x), height: CGFloat(planeAnchor.extent.z))
         planeGeomentry.materials.first?.diffuse.contents = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 0.6022350993)
         planeGeomentry.materials.first?.isDoubleSided = true
-        planeNode = SCNNode(geometry: planeGeomentry)
+        var planeNode = SCNNode(geometry: planeGeomentry)
         planeNode.position = SCNVector3(x: planeAnchor.center.x, y: 0.0, z: planeAnchor.center.z)
         planeNode.eulerAngles = SCNVector3(x: Float(Double.pi) / 2, y: 0, z: 0)
         node.addChildNode(planeNode)
